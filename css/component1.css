@@ -1,0 +1,220 @@
+/* ---------------------------------------------------------------
+navbar 1
+--------------------------------------------------------------- */
+.navbar1__section {
+  background-color: #1e1e1e;
+}
+.navbar1 {
+  color: #ffffffb8;
+  background-color: #1e1e1e;
+  padding: 8px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 24px;
+}
+
+.navbar1__separator {
+  width: 2px;
+  height: 20px;
+  border-radius: 4px;
+  background-color: #ffffff4d;
+}
+
+.navbar1 .navbar1__item {
+  font-size: 13px;
+  line-height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.navbar1__item--active {
+  color: #ffffff;
+  font-family: PoppinsSemiBold;
+}
+
+.navbar1__item select {
+  color: #ffffffb8;
+  border: none;
+  background: transparent;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.navbar1__item select:focus {
+  outline: none;
+}
+
+/* ---------------------------------------------------------------
+  navbar 2
+  --------------------------------------------------------------- */
+
+.navbar2__section {
+  background: #ffffff;
+}
+.navbar2 {
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 0px;
+}
+
+.navbar2__logo img {
+  height: 64px;
+}
+
+.navbar2__list {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.navbar2__items {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.navbar2__items .navbar2__item {
+  color: #636b77;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.navbar2__buttons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.navbar2__buttons .navbar2__button {
+  width: 32px;
+  height: 32px;
+  background: #f7f9fb;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ---------------------------------------------------------------
+  banner
+--------------------------------------------------------------- */
+.banner__section {
+  background: linear-gradient(
+    90deg,
+    rgba(12, 134, 222, 0.7) 0%,
+    rgba(0, 40, 60, 0) 65.03%
+  );
+  position: relative;
+}
+
+.banner__bg {
+  width: 100%;
+  background: url("../assets/images/Banner.png");
+  background-size: cover;
+  background-repeat: repeat-x;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.banner__parent {
+  padding: 42px 0px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 46px;
+}
+
+.banner__text {
+  max-width: 840px;
+}
+
+.banner__text .banner__heading {
+  color: #ffffff;
+  margin-bottom: 16px;
+  font-family: PoppinsBold;
+  font-size: 46px;
+  line-height: 69px;
+  text-transform: capitalize;
+}
+
+.banner__text .banner__subheading {
+  color: #ffffff;
+  max-width: 675px;
+  font-family: PoppinsRegular;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.banner__form {
+  background-color: #ffffff;
+  max-width: 410px;
+  padding: 24px;
+  border-radius: 4px;
+  border: 1px solid #132c350a;
+}
+
+.banner__form .banner__formHeading {
+  color: #2dabe3;
+  font-family: PoppinsBold;
+  font-size: 30px;
+  line-height: 45px;
+  padding-bottom: 4px;
+}
+
+.banner__form .banner__formSubHeading {
+  width: 100%;
+  color: #6b7280;
+  font-family: PoppinsRegular;
+  font-size: 12px;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+.banner__input input,
+.banner__input select {
+  width: 100%;
+  padding: 8px 12px 8px 12px;
+  border-radius: 5px;
+  border: 1px solid #e5e7eb;
+  color: #9ca3af;
+  font-family: PoppinsRegular;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.banner__communication {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.banner__communication .banner__input {
+  width: 50%;
+}
+
+.banner__submit {
+  background: #2dabe3;
+  color: #ffffff;
+  width: 100%;
+  padding: 10px 16px 10px 16px;
+  border-radius: 8px;
+  border: none;
+  font-family: PoppinsSemibold;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 24px;
+  cursor: pointer;
+}

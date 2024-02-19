@@ -1,0 +1,30 @@
+/* UTIL CLASSES */
+.flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.flex-all-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-col-4 {
+    flex-direction: column;
+}
+
+.col-gap-4 {
+    column-gap: 4px;
+}
+
+.m-top-8 {
+    margin-top: 8px;
+}
